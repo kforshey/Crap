@@ -9,7 +9,7 @@ When you type a command incorrectly, don't _say_ 'crap', _type_ it!
 For Crap to run, your execution policy must be lowered. So run this in an admin elevated PowerShell to install:
 
 	Set-ExecutionPolicy RemoteSigned
-	iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/mattparkes/PoShFuck/master/Install-Crap.ps1'))
+	iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/kforshey/crap/master/Install-Crap.ps1'))
 	or simple imoprt the module like in your powershell module with import-module pathtoCrap\crap.psm1
 
 ## Usage:
@@ -52,7 +52,7 @@ This is the command which mungs your last command and presents you with options 
 - `crap!` (alias to `Invoke-Crap -Force`)  
 This command will execute the recommended option without prompting the user.
 
-- `WTF` (alias to `Get-CrappyHelp`)  
+- `WTF` (alias to `WellThatsFantastic`)  
 Googles your last console error.
 
 - `Get-Crap`  
