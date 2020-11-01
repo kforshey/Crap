@@ -1,14 +1,16 @@
 # PoShFuck
-PowerShell implementation of "The Fuck" (https://github.com/nvbn/thefuck)
+PowerShell implementation of  (https://github.com/mattparkes/PoShF@!$)
+Basically I changed all the curse words to somthing not sdo bad.
 
-When you type a command incorrectly, don't _say_ 'fuck', _type_ it!
+When you type a command incorrectly, don't _say_ 'crap', _type_ it!
 
 ## Installation:
 
-For PoShFuck to run, your execution policy must be lowered. So run this in an admin elevated PowerShell to install:
+For Crap to run, your execution policy must be lowered. So run this in an admin elevated PowerShell to install:
 
 	Set-ExecutionPolicy RemoteSigned
-	iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/mattparkes/PoShFuck/master/Install-TheFucker.ps1'))
+	iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/mattparkes/PoShFuck/master/Install-Crap.ps1'))
+	or simple imoprt the module like in your powershell module with import-module pathtoCrap\crap.psm1
 
 ## Usage:
 
@@ -23,9 +25,9 @@ We've all done this before...
 		+ CategoryInfo          : ObjectNotFound: (peng:String) [], CommandNotFoundException
 		+ FullyQualifiedErrorId : CommandNotFoundException
 
-PoShFuck can fix it.
+Crap can fix it.
 
-	PS C:\> fuck
+	PS C:\> crap
 
 	Did you mean?
 	 PING -a 8.8.8.8
@@ -44,14 +46,14 @@ PoShFuck can fix it.
 
 ## Commands:
 
-- `fuck` (alias to `Invoke-TheFuck`)  
+- `crap` (alias to `Invoke-Crap`)  
 This is the command which mungs your last command and presents you with options to fix it.
 
-- `fuck!` (alias to `Invoke-TheFuck -Force`)  
+- `crap!` (alias to `Invoke-Crap -Force`)  
 This command will execute the recommended option without prompting the user.
 
-- `WTF` (alias to `Get-FuckingHelp`)  
+- `WTF` (alias to `Get-CrappyHelp`)  
 Googles your last console error.
 
-- `Get-Fucked`  
-Prints the list of commands which you have used PoShFuck to correct previously.
+- `Get-Crap`  
+Prints the list of commands which you have used crap to correct previously.
