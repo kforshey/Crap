@@ -1,4 +1,4 @@
-# PoShFuck
+# Crap
 PowerShell implementation of  (https://github.com/mattparkes/PoShF@!$)
 Basically I changed all the curse words to somthing not sdo bad.
 
