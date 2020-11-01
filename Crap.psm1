@@ -381,6 +381,6 @@ Function IsExtParameterCrap {
 Export-ModuleMember *-*
 Export-ModuleMember Crap!
 Export-ModuleMember WellThatsFantastic
-
+Export-ModuleMember Get-Crapped
 Set-Alias -Scope global -Name "Crap" -Value "Invoke-Crap"
 Set-Alias -Scope global -Name "WTF" -Value "WellThatsFantastic"
